@@ -21,8 +21,7 @@ $ErrorActionPreference = "Stop"
 # ─── Configuration ────────────────────────────────────────────────────────────
 $Repo = "spartaquant/spartanode-releases"
 $GpgKeyUrl = "https://raw.githubusercontent.com/$Repo/main/keys/spartanode-releases.asc"
-# Replace with actual fingerprint once the GPG key is generated
-$GpgFingerprint = "REPLACE_WITH_ACTUAL_FINGERPRINT"
+$GpgFingerprint = "0A6FC8B72DA11BDD3F5D99AB0A1ED33AF3EF9198"
 $AppName = "SpartaNode"
 
 if ($Help) {

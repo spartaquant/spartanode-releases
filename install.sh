@@ -15,8 +15,7 @@ set -euo pipefail
 # ─── Configuration ────────────────────────────────────────────────────────────
 REPO="spartaquant/spartanode-releases"
 GPG_KEY_URL="https://raw.githubusercontent.com/${REPO}/main/keys/spartanode-releases.asc"
-# Replace with actual fingerprint once the GPG key is generated
-GPG_FINGERPRINT="REPLACE_WITH_ACTUAL_FINGERPRINT"
+GPG_FINGERPRINT="0A6FC8B72DA11BDD3F5D99AB0A1ED33AF3EF9198"
 APP_NAME="SpartaNode"
 
 # ─── Parse arguments ─────────────────────────────────────────────────────────
